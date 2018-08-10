@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.6"
+  },
+  "nodemonConfig": {
+    "execMap": {
+      "js": "electron"
+    }    
+  }
 }
