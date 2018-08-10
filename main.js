@@ -15,7 +15,7 @@ let createWindow = () => {
         width: 300,
         height: 200
     })
-    let notification = new Notification('Foo', {
+    let notification = new Notification('Fooo', {
         title: 'notification from electron',
         body:'this is a promotion that is really annoying!!'
     })
