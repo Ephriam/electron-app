@@ -17,7 +17,7 @@ let createWindow = () => {
     })
     let notification = new Notification('Fooo', {
         title: 'notification from electron',
-        body:'this is a promotion that is really annoying!!'
+        body:'this is a promotion tha is really annoying!!'
     })
     //setTimeout(() => {
     notification.show()
